@@ -7,33 +7,19 @@ class Employee:
         self.__title = title
         self.__salary = salary
 
-    def set_name(self,name):
-        self.__name = name
-    
-    def set_ID(self,ID):
-        self.__ID = ID
-
-    def set_dep(self,dep):
-        self.__dep = dep
-    
-    def set_title(self,title):
-        self.__title = title  
-
-    def set_salary(self,salary):
-        self.__salary = salary 
-
-    def get_name(self,name):
+  
+    def get_name(self):
         return self.__name
     
-    def get_ID(self,ID):
+    def get_ID(self):
         return self.__ID
 
-    def get_dep(self,dep):
+    def get_dep(self):
         return self.__dep 
     
-    def get_title(self,title):
+    def get_title(self):
         return self.__title
 
-    def get_salary(self, salary):
+    def get_salary(self):
         return self.__salary  
 
